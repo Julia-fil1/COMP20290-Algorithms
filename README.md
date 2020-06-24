@@ -50,11 +50,11 @@ java HuffmanCompression + < file.file_extension | java BinaryDump
 
 -to output the compressed version of a file into a new file
 
-java HuffmanCompression - < file.file_extension (the file to be compressed)  newFile.file_extension (the new file to be created with the compressed version of the file as its contents)
+java HuffmanCompression - file.file_extension (the file to be compressed)  newFile.file_extension (the new file to be created with the compressed version of the file as its contents)
 
 -to output the decompressed version of a file into a new file
 
-java HuffmanCompression + < file.file_extension (the file to be compressed)  newFile.file_extension (the new file to be created with the compressed version of the file as its contents)
+java HuffmanCompression + file.file_extension (the file to be compressed)  newFile.file_extension (the new file to be created with the compressed version of the file as its contents)
 
 As well as implementing the Huffman algorithm within the HuffmanCompression.java file, I have also altered the RunLength.java file so as to be able to output the time it takes to execute the compression and decompression using that file. Please ensure that you use the updated version of that file while trying to time the RunLength compression.
 
